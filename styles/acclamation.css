@@ -1,0 +1,55 @@
+.acclamation {
+    padding: 16px;
+}
+
+.acclamation h2 {
+    text-align: left;
+}
+
+.acclamation-card-wrap {
+    display: flex;
+    gap: 40px;
+}
+
+.acclamation-avatar-wrap {
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .acclamation-card-wrap {
+        display: block;
+    }
+}
+
+.acclamation-card {
+    padding: 24px;
+    background-color: var(--card-background);
+    border-radius: 16px;
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .acclamation-card {
+        display: block;
+    }
+
+    .acclamation-avatar-wrap {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    .acclamation-avatar-wrap img {
+        width: 120px;
+    }
+}
+
+
+.acclamation-avatar-title {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}

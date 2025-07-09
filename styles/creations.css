@@ -1,0 +1,59 @@
+.creations {
+    margin: 120px 16px;
+}
+
+.creations-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creations-wrap-description {
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.creations-card-wrap {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*with display grid*/
+
+/*@media screen and (max-width: 700px) {*/
+/*    .creations-card-wrap {*/
+/*        display: block;*/
+/*    }*/
+
+/*    .creations-card {*/
+/*        margin-right: auto;*/
+/*        margin-left: auto;*/
+/*    }*/
+/*}*/
+
+
+/*@media screen and (min-width: 700px) and (max-width: 1024px) {*/
+/*    .creations-card-wrap {*/
+/*        display: grid;*/
+/*        grid-template-columns: repeat(2, 1fr);*/
+/*    }*/
+
+/*    .creations-card:last-child {*/
+/*        justify-self: center;*/
+/*        grid-column: 1 / -1;*/
+/*    }*/
+/*}*/
+
+.creations-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+}
+
+.creations-card-title {
+    margin-top: 16px;
+    font-size: 18px;
+}
