@@ -1,5 +1,6 @@
 
-.figure {
+
+.selection-apps {
 
     position: relative;
     display: flex;
@@ -30,8 +31,7 @@
     box-sizing: border-box;
 
 }
-.texttt {
-
+.text-for-buttons {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -47,7 +47,7 @@
 .head-text {
     width: 492px;
     height: 61px;
-    margin-top: 222.5px;
+    margin-top: 222px;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     font-size: 51px;
@@ -65,11 +65,12 @@
 
 .links-store {
     display: flex;
+    margin:0  auto;
 }
-
 
 .link-app-store {
     margin-top: 190px;
+    margin-right: auto;
     padding-bottom: var();
     display: flex;
 
@@ -78,3 +79,59 @@
     margin-top: 190px;
     margin-right: 150px;
 }
+
+@media (max-width: 1024px) {
+    .links-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .head-text {
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .small-text {
+        text-align: center;
+    }
+
+    .links-store {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .selection-apps {
+        padding: 64px 12px;
+    }
+
+    .text-for-buttons {
+        padding: 12px;
+    }
+
+    .head-text {
+        font-size: 7vw;
+    }
+
+    .small-text {
+        font-size: 1rem;
+    }
+
+    .links-store {
+        gap: 16px;
+    }
+
+    .link-app-store
+    {
+        width: 100%;
+        height: 56px;
+
+    }
+    .link-play-market {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
