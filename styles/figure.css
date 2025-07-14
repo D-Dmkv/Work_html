@@ -8,6 +8,10 @@
     justify-content: center;
     align-items: center;
 }
+
+.text-info {
+    display: flex;
+}
 .links-info {
 
     display: flex;
@@ -64,8 +68,13 @@
 }
 
 .links-store {
+<<<<<<< HEAD
+    vertical-align: baseline;
+    margin-top: 12px;
+=======
     display: flex;
     margin:0  auto;
+>>>>>>> origin/main
 }
 
 .link-app-store {
@@ -76,7 +85,8 @@
 
 }
 .link-play-market {
-    margin-top: 190px;
+
+   margin-top: 190px;
     margin-right: 150px;
 }
 
