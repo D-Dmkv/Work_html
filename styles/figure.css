@@ -68,13 +68,8 @@
 }
 
 .links-store {
-<<<<<<< HEAD
     vertical-align: baseline;
     margin-top: 12px;
-=======
-    display: flex;
-    margin:0  auto;
->>>>>>> origin/main
 }
 
 .link-app-store {
