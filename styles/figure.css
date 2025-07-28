@@ -1,9 +1,9 @@
 .mobile-apps {
     display: flex;
-    align-items: center;
     flex-direction: row;
-    justify-content: center;
     padding: 104px 0;
+    align-items: center;
+    justify-content: center;
 }
 .mobile-img {
     margin-right: 5%;
@@ -11,7 +11,10 @@
 }
 
 .mob_links {
+   /* padding-right: 128px;*/
     padding-left: 40px;
+
+
 }
 .big_text {
     font-family: DM Sans;
@@ -27,6 +30,12 @@
     text-align: left;
     overflow-wrap: break-word;
     margin-top: 16px;
+}
+.mobile-buttons .app_butt{
+    margin-right: 16px;
+}
+.mobile-buttons .app_butt:last-child{
+    margin-right: 0;
 }
 
 .mobile-buttons {
@@ -67,6 +76,8 @@
     }
 
 }
+
+
 
 @media screen and (max-width: 700px) {
     .mob_links {
