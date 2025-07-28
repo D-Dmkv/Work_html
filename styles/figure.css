@@ -30,6 +30,7 @@
     text-align: left;
     overflow-wrap: break-word;
     margin-top: 16px;
+    max-width: 492px;
 }
 .mobile-buttons .app_butt{
     margin-right: 16px;
