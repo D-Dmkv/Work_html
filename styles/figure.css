@@ -13,8 +13,6 @@
 .mob_links {
    /* padding-right: 128px;*/
     padding-left: 40px;
-
-
 }
 .big_text {
     font-family: DM Sans;
@@ -31,6 +29,11 @@
     overflow-wrap: break-word;
     margin-top: 16px;
     max-width: 492px;
+}
+
+.app_butt{
+    border: none;
+    border-radius: 5px;
 }
 .mobile-buttons .app_butt{
     margin-right: 16px;
@@ -60,22 +63,22 @@
         flex-direction: column;
 
         align-items : flex-start;
+
     }
     .mobile-apps {
         padding: 104px 16px;
     }
+
     .app_butt:last-child {
         margin-top: 16px;
         border: none;
         border-radius: 5px;
     }
     .app_butt{
-
         border: none;
         border-radius: 5px;
     }
 }
-
 
 @media screen and (max-width: 700px) {
     .mob_links {
