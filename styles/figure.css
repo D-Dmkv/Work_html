@@ -45,8 +45,10 @@
     margin-top: 32px;
 
 }
+
 .app_butt {
     background: black;
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -58,23 +60,26 @@
     .mobile-buttons {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+
+        align-items : flex-start;
+
     }
     .mobile-apps {
         padding: 104px 16px;
-
     }
 
     .app_butt:last-child {
         margin-top: 16px;
+        border: none;
+        border-radius: 5px;
     }
     .app_butt{
-        padding: 0;
+
+        border: none;
+        border-radius: 5px;
+
     }
-    .mobail-card{
-        margin-left: 40px;
-        margin-right: 40px;
-    }
+
 
 }
 
@@ -91,5 +96,6 @@
     .mobile-apps {
         flex-wrap: wrap;
     }
+
 }
 
